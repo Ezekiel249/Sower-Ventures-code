@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT US</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+        <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	 <section class="contact-header">
+            <nav>
+               <a href="Home.html" class="company-name"><img src="images/logo.png">SOWER VENTURES</a>
+               <div class="nav-links" id="navlinks"> 
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="home.html#service">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>              
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </div>
+        <div class="container"> <h1> Connect With Us</h1>
+            <p>We'd love to hear from you! Whether you have questions, feedback, or simply want to say hello, feel free to reach out</p>
+            <div class="container-box">
+
+<div class="contact-left">
+<h3> Send Your Request </h3>
+<form>
+<div class="iput-row">
+    <div class="input-group">
+        <label>Name</label>
+        <input type="text" placeholder="Philip Andrews">
+    </div>
+    <div class="input-group">
+        <label>Email</label>
+        <input type="text" placeholder="john123@gmail.com">
+    </div>
+    <div class="input-group">
+        <label>Phone</label>
+        <input type="number" placeholder="+234 8098756434">
+    </div>
+    
+
+</div>
+<label>Message</label>
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button type="submit"><a class="mail" href="mailto:adelowoseun79@gmail.com">SEND</a></button>
+
+</form>
+</div>
+
+<div class="contact-right">
+<h3>Reach Us</h3>
+
+
+    <div class="contact-info">
+
+<div class="box">
+    <div class="icon"><i class="fa fa-map-marker"></i></div>
+    <div class="text"><h3>Address</h3>
+        <p>Plot 6, Olayanju layout Ologuneru Ibadan</p></div>
+</div>
+
+<div class="box">
+    <div class="icon"><i class="fa fa-phone-square"></i></div>
+    <div class="text"><h3>Phone</h3>
+        <p>08081070713</p></div>
+</div>
+
+<div class="box">
+    <div class="icon"><i class="fa fa-envelope"></i></div>
+    <div class="text"><h3>Email</h3>
+        <p>adelowoseun79@gmail.com</p></div>
+</div>
+    
+
+</div>
+
+</div>
+        </div>
+       
+
+    </section>
+
+
+    <!----------------------------- footer -------------------------->
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Sower ventures been one of the most reliable and trustworthy show making company in africa.<br>we help in designing, production, distribution, and marketing of shoes and related products <br>we give you the best you can ever get anywhere</p>
+    <div class="icons">
+        <i class="fa fa-hand-o-right"></i>
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    </section>
+
+
+
+<!----------------------------------- javascript -------------------------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";}
+
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+    }
+</script> 
+
+
+</body>
+</html>

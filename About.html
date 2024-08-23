@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+        <link rel="stylesheet" href="home.css">
+</head>
+<body>
+	 <section class="sub-header">
+            <nav>
+               <a href="Home.html" class="company-name"><img src="images/logo.png">SOWER VENTURES</a>
+               <div class="nav-links" id="navlinks"> 
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="home.html#service">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>              
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1> About US </h1>
+    </section>
+
+    <section class="About-content">
+        <div class="row">
+            <div class="about-col">
+                <h1>COMPANY PROFILE</h1>
+                <P>Sower Ventures was established in 1995 by Engr. Oluwaseun Adelowo, a passionate shoemaker with a vision to create high-quality, handcrafted shoes. Oluwaseun’s philosophy was simple yet profound: to blend the meticulous craftsmanship of the old-world cobbler with contemporary designs and materials. Her goal was to offer footwear that was not only aesthetically pleasing but also durable and comfortable.<br>
+                    However, Sower Ventures is not just about tradition. The company continuously integrates modern technology and innovation into its processes. Advanced design software aids in creating precise patterns and styles, while modern machinery assists in tasks that require high precision and consistency. This synergy between handcraft and technology allows the company to maintain high standards of quality while also increasing production efficiency.<br>
+                    In recent years, Sower Ventures has taken significant strides towards sustainability. Recognizing the environmental impact of the fashion industry, the company has adopted eco-friendly practices. From sourcing ethically-produced leather to using water-based adhesives, every step of the production process is designed to minimize environmental harm.
+                    Sower Ventures started as a small workshop, but today, it boasts a significant market presence. With flagship stores in major cities around the world and a robust online presence, the company has a loyal customer base that values quality and authenticity. The company's marketing strategy focuses on storytelling, sharing the journey of each shoe from the workshop to the customer’s feet. <br>This narrative-driven approach has resonated deeply with customers, who appreciate knowing the story behind their purchase.
+                    Customer engagement goes beyond just marketing. Sower Ventures believes in building lasting relationships with its customers. The company offers customization services, allowing customers to design their own shoes by choosing materials, colors, and styles. This personalized experience not only enhances customer satisfaction but also reinforces the company's commitment to individual expression and craftsmanship.
+                    </P>
+                    <a href="" class="visit-link more">Explore Now</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!----------------------------- footer -------------------------->
+    
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-hand-o-right"></i>
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    </section>
+
+      
+ <!----------------------------------- javascript -------------------------->
+ <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";}
+
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+    }
+</script> 
+
+</body>
+</html>
