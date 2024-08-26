@@ -1,4 +1,5 @@
 const products = [{
+    Id: 'erfghjyrtsfdghjy',
     name: 'Black and Gray Athletic Cotton Socks - 6 Pairs',
     image: 'images/FEMALE PALM.png',
     rating:{
@@ -8,11 +9,14 @@ const products = [{
     priceCent: 1090,
 },
 {
+    Id:'mjhgfdcxdertghuytf',
     name: 'Intermediate Size Basketball',
     image: 'images/FEMALE PALM.png',
     rating:{
-        star: 4.5,
+        stars: 4.5,
         count: 25,
     },
     priceCent: 2095,
 }];
+
+
