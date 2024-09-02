@@ -1,4 +1,4 @@
-import {cart as myCart, addToCart} from './cart.js';
+import {cart as myCart,addToCart} from './cart.js';
 import {products} from './product.js';
 
 
