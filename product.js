@@ -18,8 +18,6 @@ export const products = [{
     },
     priceCent: 2095,
 }
-
-
 ];
 
 

@@ -27,8 +27,8 @@
   }
   
   .amazon-logo {
-    width: 100px;
-    margin-top: 12px;
+    width: 40px;
+    margin-top: 9px;
   }
   
   .amazon-mobile-logo {
@@ -267,6 +267,7 @@
   .delivery-option-input {
     margin-left: 0px;
     cursor: pointer;
+    
   }
   
   .delivery-option-date {
