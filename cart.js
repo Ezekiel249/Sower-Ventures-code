@@ -5,10 +5,12 @@ if (!cart) {
   [{
     productId:'erfghjyrtsfdghjy',
     quantity: 1,
+    deliveryOptionId: '1',
   },
   {
     productId:'mjhgfdcxdertghuytf',
     quantity: 2,
+    deliveryOptionId: '2',
   }
   ];
 }
@@ -36,7 +38,8 @@ export function addToCart(productId) {
   }else{
     cart.push({
       productId: productId,
-      quantity: 1,
+      quantity: 1, 
+      deliveryOptionId: '1',
       });
   }
   saveToStorage();
@@ -56,3 +59,16 @@ if (cartItem.productId !== productId) {
      saveToStorage();
   };
   
+  export  function updateDeliveryOption(productId, deliveryOptionId) {
+    let matchingitem;
+
+    cart.forEach((cartItem) => {
+      if (productId === cartItem.productId) {
+        matchingitem = cartItem;
+      }
+    });
+
+    matchingitem.deliveryOptionId = deliveryOptionId;
+     
+    saveToStorage();
+  }
